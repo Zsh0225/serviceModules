@@ -1,4 +1,4 @@
-package com.yunji.goforit.login;
+package com.yunji.goforit.Login;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

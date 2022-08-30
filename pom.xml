@@ -14,6 +14,7 @@
 
     <modules>
         <module>login</module>
+        <module>redisLock</module>
     </modules>
     <packaging>pom</packaging>
     <!-- 统一管理jar包版本 -->
@@ -77,6 +78,10 @@
                 <version>2.1.0.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
             </dependency>
         </dependencies>
 
