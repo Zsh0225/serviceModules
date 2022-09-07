@@ -14,10 +14,15 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
+ 
 *.iml
-*.ipr
+target/
+out/
+*.class
+*.idea/
+*.log
+logs/
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,8 +31,6 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 *.mvnw
 *.mvnw.cmd
 ### VS Code ###
