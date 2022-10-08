@@ -1,0 +1,16 @@
+server:
+  port: 8082
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    alicloud:
+      oss:
+        endpoint: oss-cn-hangzhou.aliyuncs.com
+        bucketName: www-zsh0225-top-oss-bucket-test
+      access-key: LTAI5tC7YhPHXY6TzvyfwxCH
+      secret-key: O0lAgaKpxPfJdJKOZ8NtmUq39bfGcN
+
+  application:
+    name: OSSService
