@@ -9,8 +9,7 @@ spring:
       oss:
         endpoint: oss-cn-hangzhou.aliyuncs.com
         bucketName: www-zsh0225-top-oss-bucket-test
-      access-key: ************************************
-      secret-key: &******************************
+
 
   application:
     name: OSSService
